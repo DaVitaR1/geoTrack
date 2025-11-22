@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Geotrack" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/red_secondary</item>
+        <item name="colorSecondary">@color/red_primary</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="M">false</item>
+    </style>
+
+    <style name="Theme.Geotrack" parent="Base.Theme.Geotrack" />
+</resources>

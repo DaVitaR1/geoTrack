@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginEnd="8dp">
+
+    <ImageView
+        android:id="@+id/fotoMiniatura"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="#ccc"
+        android:contentDescription="Miniatura de foto adjunta"/>
+
+    <ImageView
+        android:id="@+id/btnEliminarFoto"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="top|end"
+        android:background="@drawable/rounded_red_background"
+        android:padding="4dp"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:tint="@android:color/white"
+        android:contentDescription="Eliminar foto"/>
+</FrameLayout>
